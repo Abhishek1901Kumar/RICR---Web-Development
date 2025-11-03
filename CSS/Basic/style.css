@@ -1,0 +1,19 @@
+*{
+    background-color: aquamarine;
+}
+h1{
+    background-color: brown;
+}
+p{
+    color: blueviolet;
+    background-color: burlywood;
+}
+.A{
+    background-color: darkgoldenrod;
+}
+h2{
+    background: linear-gradient(45deg, Green, Blue, RED);
+}
+.B{
+    background: linear-gradient(30deg, Red, Yellow, Blue, Green, Orange);
+}
