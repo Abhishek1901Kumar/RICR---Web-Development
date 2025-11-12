@@ -1,0 +1,122 @@
+#mainDiv{
+padding: 30px;
+font-family: Roboto, sans-serif;
+}
+
+#navbar {
+    border: 1px solid white;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    div{
+        display: flex;
+        gap: 15px;
+        
+    }
+    span:hover{
+        color:black;
+    } 
+}
+#signin {
+    background-color: white;
+    border:none;
+    padding: 10px;
+}
+#signin:hover{
+    background:gray;
+}
+#blocks {
+    background-color: black;
+    color: white;
+    padding :10px;
+}
+/* #front {
+    display: grid;
+    grid-template-columns: auto auto;
+    display: flex;
+   
+} */
+ 
+.subfront{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    /* padding: 30px; */
+}
+#heading {
+    font-size: 48px;
+    color: #000;
+    display: flex;
+    line-height: 1.25 ;  
+    font-weight: 600;
+    
+    
+}
+#content {
+    color: gray;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5 ;
+    font-size: 25px;
+    font-weight: 400;
+}
+#email {
+    padding: 10px;
+
+}
+#require {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+#terms {
+    color:gray; 
+}
+
+#clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 100px;
+    img{
+        width: 200px;
+        height: auto;
+    }   
+}
+#skills {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    #p1 {
+        font-size:50px;
+        font-weight: 900;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #p2 {
+    color: gray;
+    line-height: 1.5 ;
+    font-size: 30px;
+     text-align: center;
+    }
+}
+#tags{
+   
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-items: center;
+    align-content: center;
+    gap: 5px; 
+}
+.card{
+     width:300px;
+    height:300px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    padding: 10px;
+}
