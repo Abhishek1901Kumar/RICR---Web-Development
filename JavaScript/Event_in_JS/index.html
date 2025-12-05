@@ -7,23 +7,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="rainbowbulb">Rainbow Bulb</div>
+    <div id="colorpalet">
+        <div class="color" id="c1">C1</div>
+        <div class="color" id="c2">C2</div>
+        <div class="color" id="c3">C3</div>
+        <div class="color" id="c4">C4</div>
+        <div class="color" id="c5">C5</div>
+        <div class="color" id="c6">C6</div>
+        <div class="color" id="c7">C7</div>
+    </div>
+    
+
+    <hr />
+
     <div id="bulb">Bulb</div>
 
-    <button onclick="on()">on</button>
-    <button onclick="off()">off</button>
-    <button onclick="red()">red</button>
-    <button onclick="blue()">blue</button>
-    <button onclick="green()">green</button>
+    <button onclick="On()">on</button>
+    <button onclick="Off()">off</button>
+    <button onclick="Red()">red</button>
+    <button onclick="Blue()">blue</button>
+    <button onclick="Green()">green</button>
 
     <label for="color"></label>
     <input type="color" name="color" id="color" />
 
-    <br>
-    <hr>
+    <br />
+    <hr />
 
     <div id="smartBulb">Smart Bulb</div>
-    <br>
-    <button></button>
+    <br />
+    <button onclick="SB_Control()" id="SB_btn">On</button>
+
+    <button onclick="SB_Control()" id="SB_btn">On/Off</button>
 
     <script src="script.js"></script>
   </body>

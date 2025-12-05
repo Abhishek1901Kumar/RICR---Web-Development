@@ -3,7 +3,7 @@
     height: 100px;
     border: 1px solid #000;
     position: absolute;
-    animation: dabba 2s linear infinite;
+    animation: dabba 0.5s linear infinite;
 }
 @keyframes dabba {
     0%{
