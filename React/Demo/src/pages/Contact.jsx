@@ -1,0 +1,13 @@
+import React from "react";
+
+const Contact = () => {
+  return (
+    <>
+      <h1 id="head">
+        <i className="bi bi-x-octagon-fill"></i> Hello World
+      </h1>
+    </>
+  );
+};
+
+export default Contact;
