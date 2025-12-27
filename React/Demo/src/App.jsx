@@ -5,10 +5,11 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Product from "./pages/product";
 import About from "./pages/About";
+
 
 function App() {
   return (
@@ -16,12 +17,12 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/" element={<About/>} />
-          <Route path="/" element={<Product/>} />
-          <Route path="/" element={<Contact/>} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<Product/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
-        <Footer />
+        <Footer/>
       </BrowserRouter>
     </>
   );

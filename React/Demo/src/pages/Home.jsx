@@ -4,20 +4,19 @@ const Home = () => {
   return (
     <>
       <h1 id="head">
-        <i className="bi bi-x-octagon-fill"></i> Hello World
+        <i className="bi bi-airplane-engines"></i>Hello World
       </h1>
-      <div className="bg-primary text-light"></div>
+      <div className="bg-primary text-light"> this is my first React App</div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-        recusandae beatae, minima illo ipsa expedita illum labore obcaecati
-        fugiat delectus rerum quam ab vitae optio sapiente, temporibus
-        aspernatur culpa adipisci?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ipsum
+        vitae molestias culpa est tempore. Fugiat, dolore velit! Eum, illo.
       </p>
+
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-        cupiditate nesciunt voluptates vel quam ratione, consequatur tenetur
-        nemo eveniet, porro sapiente aspernatur. Velit facere dolore delectus
-        maiores, nostrum exercitationem suscipit.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci nihil
+        ipsa dicta nisi praesentium voluptatum magnam a eveniet ea consequuntur
+        placeat maiores ad cum, voluptatem hic unde veritatis vitae
+        perspiciatis?
       </p>
     </>
   );
